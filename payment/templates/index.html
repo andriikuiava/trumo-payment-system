@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>List of Payers</h2>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Balance</th>
+    </tr>
+    {% for payer in payers %}
+    <tr>
+        <td>{{ payer.name }}</td>
+        <td>{{ payer.balance }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>List of Transactions</h2>
+<table>
+    <tr>
+        <th>From</th>
+        <th>To</th>
+        <th>Amount</th>
+        <th>Timestamp</th>
+    </tr>
+    {% for transaction in transactions %}
+    <tr>
+        <td>{{ transaction.from_payer.name }}</td>
+        <td>{{ transaction.to_payer.name }}</td>
+        <td>{{ transaction.amount }}</td>
+        <td>{{ transaction.timestamp }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
