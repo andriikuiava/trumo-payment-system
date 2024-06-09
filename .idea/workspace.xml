@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f874074c-b667-475e-be44-a0499b2a0523" name="Changes" comment="Update README.md">
-      <change afterPath="$PROJECT_DIR$/payment/management/commands/seed_payers.py" afterDir="false" />
+    <list default="true" id="f874074c-b667-475e-be44-a0499b2a0523" name="Changes" comment="Creation of payers added">
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,9 @@
       <workItem from="1717931526692" duration="7520000" />
       <workItem from="1717943461863" duration="40000" />
       <workItem from="1717943826501" duration="4000" />
-      <workItem from="1717943892886" duration="404000" />
+      <workItem from="1717943892886" duration="429000" />
+      <workItem from="1717944337468" duration="6000" />
+      <workItem from="1717944926477" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -134,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717943495280</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creation of payers added">
+      <option name="closed" value="true" />
+      <created>1717944311675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717944311675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +153,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Creation of payers added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of payers added" />
   </component>
 </project>

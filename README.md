@@ -22,7 +22,7 @@ docker-compose up --build
 ```
 
 4. **Run the migrations (*in a separate terminal*)**
-<br>
+
 Also will create 3 payers in the database with the initial balance if there are less than 3 payers.
 ```bash
 docker-compose exec web sh setup.sh
