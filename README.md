@@ -87,6 +87,12 @@ http://localhost:8000/api/transactions/?payer_id=1
 http://localhost:8000/
 ```
 
+## Testing with Pytest
+```bash
+docker-compose exec web pytest
+```
+
+
 ### Comments
 - The project is built using Django and Django Rest Framework.
 - The project uses SQLite as the database.

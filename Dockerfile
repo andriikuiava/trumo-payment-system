@@ -1,6 +1,7 @@
 FROM python:3.9
 
 ENV PYTHONUNBUFFERED 1
+ENV DJANGO_SETTINGS_MODULE=payment_system.settings
 
 WORKDIR /app
 
