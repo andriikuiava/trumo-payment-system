@@ -21,7 +21,7 @@ cd trumo-payment-system
 docker-compose up --build
 ```
 
-4. **Run the migrations**
+4. **Run the migrations (*in a separate terminal*)**
 ```bash
 docker-compose exec web sh setup.sh
 ```

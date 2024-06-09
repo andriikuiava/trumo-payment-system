@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f874074c-b667-475e-be44-a0499b2a0523" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/payment_system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/templates/create_payer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/templates/transfer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment_system/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment_system/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment_system/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment_system/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment_system/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
-    </list>
+    <list default="true" id="f874074c-b667-475e-be44-a0499b2a0523" name="Changes" comment="Initial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "andriikuiava"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/andriikuiava/trumo-payment-system.git",
+    "accountId": "edab1330-7138-49fa-b5cd-5f5a81c8a903"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -130,8 +108,17 @@
       <option name="presentableId" value="Default" />
       <updated>1717930644520</updated>
       <workItem from="1717930648996" duration="622000" />
-      <workItem from="1717931526692" duration="7331000" />
+      <workItem from="1717931526692" duration="7520000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1717943233420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717943233420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,5 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
